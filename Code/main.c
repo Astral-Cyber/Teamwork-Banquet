@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 5
-int max(int a,int b);
+int max(int a,int b);//声明寻找最大形变位置函数
 int main() {
     int x,y;
     int r[N][N]={0};//初始化屋顶数组
@@ -36,6 +36,7 @@ int main() {
     printf("形变最大的位置是：");
     return 0;
 }
+//定义寻找最大形变位置函数
 int max(int a,int b){
 
 }
